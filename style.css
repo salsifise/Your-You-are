@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#000;}
+#header{ 
+	border-color:#F36;
+	border-width:1px;
+	border-style:solid;
+	width:630px;
+	height:104px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5px;
+	margin-bottom:5px; 
+	background-image: url("imgs/youryourebg.png");
+
+	border-radius: 5px 5px 5px 5px;  
+	}
+#menu ul{
+	list-style-type: none;
+	margin-top: 12px;
+	margin-right: -33px;
+	backface-visibility: visible;
+	}
+	#menu ul li{
+		display:inline;}
+		#menu ul li a{
+			text-decoration:none;
+			color:#FFF;
+			font-family:"Arial Black",Times, serif;
+			font-size:16px;
+			font-weight:bold;
+			border:#C03 solid 1px;
+			padding:10px 10px 10px 10px;
+			border-radius:5px5px 5px 5px;
+			background-color:#C03;
+			}
+			#menu ul li a:hover{
+				background-color:#903;}	
+.menu{
+	margin-top:3px;
+	border-color:#C03;
+	border-width:1px;
+	border-style:solid;
+	width:800px;
+	height:45px; 
+	background-color:#C03;
+	direction:ltr;
+	}
+
+.content{ 
+	border-color:#933;
+	border-width:1px;
+	border-style:solid;
+	margin-top:3px;
+	width:800px;
+	height:auto; 
+	background-color:#FFF;
+	}
+	
+.main{ 
+	margin:0 auto;
+	border:#F30 solid 0px;
+	width:800px;
+	}
+	
+.imgdiv{
+	width:190px;
+	margin:2px 2px 6px 2px;
+		}
+	
+.text{ 
+	width:580px;
+	border:1px solid #F03;
+	float:right;
+	margin:8px 4px 2px 2px;
+	}	
+	
+.title{
+	padding:3px 3px 3px 3px;
+	color:#f30;
+	font-family:"Arial Black", Times, serif;
+	font-size:18px;
+	font-weight:bold;
+	text-shadow:#000 0px 2px;
+	}
+
+.details{ 
+	padding:3px 3px 3px 3px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	}
+.details a{
+	color:#09F;
+	text-decoration:none;
+	}	
+.details a:hover{
+	color:#F60;
+	text-decoration:underline;
+	}	
+.img1{
+	height:110px;
+	width:190px;
+	border-radius:6px 6px 6px 6px;
+	margin:2px 2px2px2px;
+	}
+.marquee{
+	color:#000;
+	opacity:0.9;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	border:solid #F30 1px;
+	border-radius:4px 4px 4px 4px;
+	height:auto;
+	margin-top:2px;
+	}	
+.foter{
+	background-color:#F4F4F4;
+	font-family:Tahoma, Geneva, sans-serif;
+	text-align:center;
+	border:solid #999 1px;
+	border-radius:3px 3px 3px;
+	margin-top:2px;
+	}	
